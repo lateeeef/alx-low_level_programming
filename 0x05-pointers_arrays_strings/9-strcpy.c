@@ -1,17 +1,10 @@
 #include "main.h"
 /**
- *
- *  * _strcpy - copy and paste string
- *
- *   * @dest:description
- *
- *    * @src:source
- *
- *     *
- *
- *      * Return: description
- *
- *       */
+ * _strcpy - copy and paste string
+ * @dest:description
+ * @src:source
+ * Return: description
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;

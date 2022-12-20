@@ -1,22 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *print_array - prints n elements of array
- *@a: array
- *@n: number of elements
- *return: nothing
+ * puts_half - print second half of a string
+ * @str: char array string type *
+ * Description: If odd number of chars, print (length - 1) / 
  */
 
-void print_array(int *a, int n)
+void puts_half(char *str)
 {
-	int inc;
+	int i;
 
-	for (inc = 0; inc < n ; inc++)
+	for (i = 0; str[i] != '\0'; i++);
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
-		if (inc != n - 1)
-			printf("%d", a[inc]);
-		else
-			printf("%d", a[inc]);
+		_putchar(str[i]);
+
 	}
-	putchar(10);
+	_putchar('\n');
 }
