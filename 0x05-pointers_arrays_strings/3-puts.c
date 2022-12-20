@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include "main.h"
-/*
- *_puts - print a string
- *@str: string to print
- *Describe: print a string
- *on success - return no error
+/**
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 
 void _puts(char *str)
